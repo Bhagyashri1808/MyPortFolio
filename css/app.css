@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Karma');
+
+html,body{
+  font-family: "Open Sans", sans-serif;
+    color: rgb(88, 100, 109);
+    /* background-color: rgb(250, 251, 252); */
+    background: url(../images/background.jpg);
+    background-size: cover;
+}
+.header{
+  width: 100%;
+  margin-bottom: 0px;
+
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    width:85%;
+    /* background-color: rgb(255, 255, 255); */
+     border-bottom: 5px solid gray; /*rgb(219, 226, 232) */
+}
+h1{
+    letter-spacing: 4px;
+    position: relative;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px white;
+    text-align: right;
+    font-family: 'Karma',sans-serif;
+    margin-bottom: 0px;
+}
+h3{
+    letter-spacing: 2px;
+    position: relative;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px white;
+    text-align: right;
+    font-family: 'Karma',sans-serif;
+    margin-top: 0px;
+}
+h4,h6 {
+    letter-spacing: 1px;
+    position: relative;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px white;
+    font-family: 'Karma',sans-serif;
+    margin-bottom: -1rem;
+}
+#logo{
+   width: 25vw;
+   height: 7vw;
+   background: url(../images/logo-bg.jpg);
+   border-radius: 45px;
+   margin-top: 10px;
+   order: 1;
+}
+
+#title{
+    width: 67%;
+    order: 2;
+}
+
+.main-div{
+  width: 55vw;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 15px;
+  background-image: url("../images/shahitukda.jpg");
+  height: 35vw;
+  background-size: cover;
+}
+
+.images{
+  width:100%;
+  height:auto;
+}
+
+.main-Container{
+  display: flex;
+  margin:auto;
+  width:90%;
+}
+.section1{
+  /* width:60%; */
+  margin-right: 15px;
+  border-right: 3px solid gray;
+}
+.div-aside{
+  /* width:30%; */
+  margin-top: 20px;
+}
+.images-aside{
+  width: 12vw;
+  height: 12vw;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+@font-face {
+    font-family: Ecosmith;
+    src: url(../fonts/EcosmithScript-Regular.otf);
+}
+.Span-logo{
+  font-family: Ecosmith;
+  color: white;
+  padding-left: 35px;
+  font-size: 3.5vw;
+  position: absolute;
+  margin-top: 10px;
+}
+.divAsideImages{
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid gray;
+  width: 95%;
+  margin-bottom: 5px;
+}
+
+.divAsideDetails{
+  display: grid;
+  height: 10%;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-family: 'Karma',sans-serif;
+  color: brown;
+}
+
+.divMainDetails{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: Karma,sans-serif;
+  color: brown;
+}
+ .footerSpan{
+   display: none;
+ }
+
+@media(max-width: 412px) {
+  .header{
+    /* width: 100%; */
+  }
+  .container{
+    display: block;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+  }
+  .main-Container{
+    display: block;
+    margin-left: 13px;
+    width:100%;
+    margin-bottom: 10px;
+  }
+  .section1{
+    margin:0px;
+    border-right: 0px;
+  }
+  .main-div{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 90vw;
+    height: 60vw;
+  }
+  .divMainDetails{
+    margin: 0px;
+    margin-right: 10px;
+    border-bottom: 2px solid black;
+  }
+  .divAsideDetails{
+    display: block;
+  }
+  #title{
+    display: none;
+  }
+  #logo{
+    width: 63vw;
+    height: 15vw;
+    margin-bottom: 5px;
+    margin-left: 60px;
+  }
+  .Span-logo{
+    font-size: 35px;
+  }
+  footer{
+    display: block;
+    padding-top: 10px;
+    border-top: 1px solid black;
+    font-family: Karma,sans-serif;
+    text-align: center;
+  }
+  .footerSpan{
+    display: block;
+  }
+  .images-aside{
+    width: 17vw;
+    height: 17vw;
+  }
+
+}
+@media screen and (min-width: 760px) and (max-width: 1023px){
+#title{
+  display: none;
+}
+#logo{
+  margin-left: 25px;
+  width: 45vw;
+  height: 12vw;
+}
+.Span-logo{
+  font-size: 6.5vw
+}
+.container{
+  padding-left: 190px;
+  padding-bottom: 15px;
+}
+.main-Container{
+  display: block;
+  margin: 15px 0 15px 94px;
+  /* margin-top: 15px;
+  margin-bottom: 15px; */
+}
+.section1{
+  border: none;
+}
+.main-div{
+  width: 80vw;
+  height: 50vw;
+  margin: 0px;
+}
+.divMainDetails{
+  margin: 0px;
+}
+.footerSpan{
+display: block;
+font-size: 1.33rem;
+}
+footer{
+  display: block;
+  padding-top: 25px;
+  border-top: 1px solid black;
+  font-family: Karma,sans-serif;
+  text-align: center;
+}
+}
